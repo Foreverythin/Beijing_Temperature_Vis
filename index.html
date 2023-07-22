@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" type="text/css" href = "./style.css"></link>
+    <title>Beijing's Daily Temperature in 2022</title>
+</head>
+<body>
+    <h2 id="title">Beijing's Daily Temperature in 2022</h2>
+    <div id="description">Daily minimum and maximum temperatures in Beijing in 2022</div>
+
+    <div id="wrapper">
+        <div class="tooltip" id="tooltip">
+            <div class="tooltip-date">
+                <span id="date"></span>
+            </div>
+            <div class="tooltip-temperature">
+                <span id="min-temperature"></span>&deg;C
+                -
+                <span id="max-temperature"></span>&deg;C
+            </div>
+        </div>
+    </div>
+
+    <script src="./d3.js"></script>
+    <script src="./chart.js"></script>
+</body>
+</html>
